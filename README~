@@ -1,0 +1,17 @@
+<h1>My Personal Toolkit</h1> ***********************************************************
+This repo will include all the stuff use I while kicking off a project
+
+Contents-----------------------------------------------------------------------
+folders >
+styles
+scripts
+images
+includes
+backup
+
+files >
+index.php- doctype, title, link to style.css, script.js, jquery.js, icon.png
+style.css-  contains reset.css and additional custom start off styles
+script.js-  contains just a $(document).ready(function(){}); line
+jquery.js- current version of jquery
+icon.png- a black 64x64 png file
