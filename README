@@ -2,7 +2,9 @@ My Personal Toolkit ***********************************************************
 This repo will include all the stuff use I while kicking off a project
 
 Contents-----------------------------------------------------------------------
+
 folders >
+
 styles
 scripts
 images
@@ -10,8 +12,20 @@ includes
 backup
 
 files >
+
 index.php- doctype, title, link to style.css, script.js, jquery.js, icon.png
+	   and html5 shim
 style.css-  contains reset.css and additional custom start off styles
+	    reset from http://meyerweb.com/eric/tools/css/reset/
+grid.css-  custom grid
 script.js-  contains just a $(document).ready(function(){}); line
 jquery.js- current version of jquery
 icon.png- a black 64x64 png file
+.htaccess- for the directory index, the error documents, directory listing 
+	   options and denying access to the .htaccess file itself.
+	   from http://www.csskarma.com/blog/creating-an-htaccess-template/
+robots.txt- defining access for web crawlers and robots
+sitemap.xml- list of pages for crawlers and users
+404.php- error document for files that were not found
+403.php- error document for forbidden files
+500.php- error document for unknown errors
