@@ -1,0 +1,47 @@
+/*
+	Horzontal box containers
+*/
+.horizontal{
+	width:960px;
+	margin:0 auto;
+	clear:both;
+}
+
+/*
+	Boxes
+*/
+.box{
+	margin:10px;
+	float:left;
+}
+.box_1{
+	width:940px;
+}
+.box_1by2{
+	width:460px;
+}
+.box_1by3{
+	width:300px;
+}
+.box_2by3{
+	width:620px;
+}
+.box_1by4{
+	width:220px;
+}
+.box_3by4{
+	width:700px;
+}
+
+
+.box_1_no_margin{
+	width:960px;
+	margin:20px 0;
+}
+
+/*
+	General clearfix
+*/
+.clear{
+	clear:both;
+}
